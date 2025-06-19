@@ -18,7 +18,7 @@ export default function NotFound() {
                 </motion.h1>
 
                 <motion.h2
-                    className="text-2xl md:text-3xl font-semibold mb-8"
+                    className="text-2xl md:text-3xl font-bold mb-8"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.6, delay: 0.2 }}
@@ -34,7 +34,7 @@ export default function NotFound() {
                 >
                     <div className="relative w-48 h-48 md:w-64 md:h-64">
                         <Image
-                            src="/kokomi_pray.webp"
+                            src="/kokomi_whisper.webp"
                             alt="Kokomi - Page not found"
                             fill
                             sizes="(max-width: 768px) 192px, 256px"
@@ -45,7 +45,7 @@ export default function NotFound() {
                 </motion.div>
 
                 <motion.p
-                    className="text-lg mb-8 max-w-md mx-auto"
+                    className="text-lg font-bold mb-8 max-w-md mx-auto"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.6, delay: 0.4 }}
